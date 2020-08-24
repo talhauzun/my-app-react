@@ -30,6 +30,11 @@ const data = [
     first_name: 'Burcu v5',
     last_name: 'Ayaz v3',
   },
+  {
+    id: 1,
+    first_name: 'Tuğba',
+    last_name: 'Uzun',
+  },
 ];
 
 function App() {
