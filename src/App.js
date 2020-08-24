@@ -22,13 +22,13 @@ const columns = [
 const data = [
   {
     id: 1,
-    first_name: 'Frodo',
-    last_name: 'Baggins',
+    first_name: 'Talha',
+    last_name: 'Uzun',
   },
   {
     id: 2,
-    first_name: 'Samwise',
-    last_name: 'Gamgee',
+    first_name: 'Burcu',
+    last_name: 'Ayaz',
   },
 ];
 
