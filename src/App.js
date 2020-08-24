@@ -1,6 +1,6 @@
-import React, { useMemo } from 'react';
-import { useTable } from 'react-final-table';
+import React, { Component } from 'react'
 
+<<<<<<< HEAD
 const columns = [
   { name: 'id', 
     hidden: true
@@ -42,10 +42,13 @@ const data = [
   }
 =======
 function App() {
+=======
+export default class App extends Component {
 
-  const memoColumns = useMemo(() => columns, []);
-  const memoData = useMemo(() => data, []);
+>>>>>>> parent of d7df932... seçilen kişiye dair bilgileri gösteriyor
 
+
+<<<<<<< HEAD
   const { headers, rows, selectRow, selectedRows } = useTable(memoColumns, memoData, {
     selectable: true,
   });
@@ -85,6 +88,13 @@ function App() {
     </>
   );
 >>>>>>> gelecek
+=======
+  render() {
+    return (
+      <div>
+        Talha Uzun
+      </div>
+    )
+  }
+>>>>>>> parent of d7df932... seçilen kişiye dair bilgileri gösteriyor
 }
-
-export default App;
